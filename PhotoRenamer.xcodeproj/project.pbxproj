@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2B3C4D5E6F7G8H9I0J1K2L3M4N5O6P /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6P5O4N3M2L1K0J9I8H7G6F5E4D3C2B1A /* ContentView.swift */; };
+		2B3C4D5E6F7G8H9I0J1K2L3M4N5O6P7Q /* PhotoRenamerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7Q6P5O4N3M2L1K0J9I8H7G6F5E4D3C2B /* PhotoRenamerApp.swift */; };
+		3C4D5E6F7G8H9I0J1K2L3M4N5O6P7Q8R /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8R7Q6P5O4N3M2L1K0J9I8H7G6F5E4D3C /* Assets.xcassets */; };
+		4D5E6F7G8H9I0J1K2L3M4N5O6P7Q8R9S /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9S8R7Q6P5O4N3M2L1K0J9I8H7G6F5E4D /* Preview Assets.xcassets */; };
+		5E6F7G8H9I0J1K2L3M4N5O6P7Q8R9S0T /* PhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0T9S8R7Q6P5O4N3M2L1K0J9I8H7G6F5E /* PhotoItem.swift */; };
+		6F7G8H9I0J1K2L3M4N5O6P7Q8R9S0T1U /* PhotoRenamerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1U0T9S8R7Q6P5O4N3M2L1K0J9I8H7G6F /* PhotoRenamerViewModel.swift */; };
+		7G8H9I0J1K2L3M4N5O6P7Q8R9S0T1U2V /* GeminiAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2V1U0T9S8R7Q6P5O4N3M2L1K0J9I8H7G /* GeminiAIService.swift */; };
+		8H9I0J1K2L3M4N5O6P7Q8R9S0T1U2V3W /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3W2V1U0T9S8R7Q6P5O4N3M2L1K0J9I8H /* PreferencesView.swift */; };
+		9I0J1K2L3M4N5O6P7Q8R9S0T1U2V3W4X /* PreferencesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4X3W2V1U0T9S8R7Q6P5O4N3M2L1K0J9I /* PreferencesViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0T9S8R7Q6P5O4N3M2L1K0J9I8H7G6F5E /* PhotoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItem.swift; sourceTree = "<group>"; };
+		1U0T9S8R7Q6P5O4N3M2L1K0J9I8H7G6F /* PhotoRenamerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRenamerViewModel.swift; sourceTree = "<group>"; };
+		2V1U0T9S8R7Q6P5O4N3M2L1K0J9I8H7G /* GeminiAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiAIService.swift; sourceTree = "<group>"; };
+		3W2V1U0T9S8R7Q6P5O4N3M2L1K0J9I8H /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		4X3W2V1U0T9S8R7Q6P5O4N3M2L1K0J9I /* PreferencesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewModel.swift; sourceTree = "<group>"; };
+		5Y4X3W2V1U0T9S8R7Q6P5O4N3M2L1K0J /* PhotoRenamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoRenamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6P5O4N3M2L1K0J9I8H7G6F5E4D3C2B1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7Q6P5O4N3M2L1K0J9I8H7G6F5E4D3C2B /* PhotoRenamerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRenamerApp.swift; sourceTree = "<group>"; };
+		8R7Q6P5O4N3M2L1K0J9I8H7G6F5E4D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9S8R7Q6P5O4N3M2L1K0J9I8H7G6F5E4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A09T8S7R6Q5P4O3N2M1L0K9J8I7H6G5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1A0U9T8S7R6Q5P4O3N2M1L0K9J8I7H6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2B1A0U9T8S7R6Q5P4O3N2M1L0K9J8I7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5Y4X3W2V1U0T9S8R7Q6P5O4N3M2L1K0J /* PhotoRenamer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3C2B1A0U9T8S7R6Q5P4O3N2M1L0K9J8 /* PhotoRenamer */ = {
+			isa = PBXGroup;
+			children = (
+				7Q6P5O4N3M2L1K0J9I8H7G6F5E4D3C2B /* PhotoRenamerApp.swift */,
+				6P5O4N3M2L1K0J9I8H7G6F5E4D3C2B1A /* ContentView.swift */,
+				E4D3C2B1A0U9T8S7R6Q5P4O3N2M1L0K /* Models */,
+				F5E4D3C2B1A0U9T8S7R6Q5P4O3N2M1L /* Views */,
+				G6F5E4D3C2B1A0U9T8S7R6Q5P4O3N2M /* ViewModels */,
+				H7G6F5E4D3C2B1A0U9T8S7R6Q5P4O3N /* Services */,
+				8R7Q6P5O4N3M2L1K0J9I8H7G6F5E4D3C /* Assets.xcassets */,
+				A09T8S7R6Q5P4O3N2M1L0K9J8I7H6G5F /* Info.plist */,
+				I8H7G6F5E4D3C2B1A0U9T8S7R6Q5P4O /* Preview Content */,
+			);
+			path = PhotoRenamer;
+			sourceTree = "<group>";
+		};
+		E4D3C2B1A0U9T8S7R6Q5P4O3N2M1L0K /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0T9S8R7Q6P5O4N3M2L1K0J9I8H7G6F5E /* PhotoItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F5E4D3C2B1A0U9T8S7R6Q5P4O3N2M1L /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3W2V1U0T9S8R7Q6P5O4N3M2L1K0J9I8H /* PreferencesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		G6F5E4D3C2B1A0U9T8S7R6Q5P4O3N2M /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1U0T9S8R7Q6P5O4N3M2L1K0J9I8H7G6F /* PhotoRenamerViewModel.swift */,
+				4X3W2V1U0T9S8R7Q6P5O4N3M2L1K0J9I /* PreferencesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		H7G6F5E4D3C2B1A0U9T8S7R6Q5P4O3N /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2V1U0T9S8R7Q6P5O4N3M2L1K0J9I8H7G /* GeminiAIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		I8H7G6F5E4D3C2B1A0U9T8S7R6Q5P4O /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9S8R7Q6P5O4N3M2L1K0J9I8H7G6F5E4D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		J9I8H7G6F5E4D3C2B1A0U9T8S7R6Q5P = {
+			isa = PBXGroup;
+			children = (
+				D3C2B1A0U9T8S7R6Q5P4O3N2M1L0K9J8 /* PhotoRenamer */,
+				C2B1A0U9T8S7R6Q5P4O3N2M1L0K9J8I7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		K0J9I8H7G6F5E4D3C2B1A0U9T8S7R6Q5 /* PhotoRenamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = N3M2L1K0J9I8H7G6F5E4D3C2B1A0U9T /* Build configuration list for PBXNativeTarget "PhotoRenamer" */;
+			buildPhases = (
+				L1K0J9I8H7G6F5E4D3C2B1A0U9T8S7R /* Sources */,
+				B1A0U9T8S7R6Q5P4O3N2M1L0K9J8I7H6 /* Frameworks */,
+				M2L1K0J9I8H7G6F5E4D3C2B1A0U9T8S /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoRenamer;
+			productName = PhotoRenamer;
+			productReference = 5Y4X3W2V1U0T9S8R7Q6P5O4N3M2L1K0J /* PhotoRenamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		O4N3M2L1K0J9I8H7G6F5E4D3C2B1A0U9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					K0J9I8H7G6F5E4D3C2B1A0U9T8S7R6Q5 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = P5O4N3M2L1K0J9I8H7G6F5E4D3C2B1A /* Build configuration list for PBXProject "PhotoRenamer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = tr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				tr,
+				Base,
+			);
+			mainGroup = J9I8H7G6F5E4D3C2B1A0U9T8S7R6Q5P;
+			productRefGroup = C2B1A0U9T8S7R6Q5P4O3N2M1L0K9J8I7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				K0J9I8H7G6F5E4D3C2B1A0U9T8S7R6Q5 /* PhotoRenamer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		M2L1K0J9I8H7G6F5E4D3C2B1A0U9T8S /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5E6F7G8H9I0J1K2L3M4N5O6P7Q8R9S /* Preview Assets.xcassets in Resources */,
+				3C4D5E6F7G8H9I0J1K2L3M4N5O6P7Q8R /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		L1K0J9I8H7G6F5E4D3C2B1A0U9T8S7R /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2B3C4D5E6F7G8H9I0J1K2L3M4N5O6P /* ContentView.swift in Sources */,
+				2B3C4D5E6F7G8H9I0J1K2L3M4N5O6P7Q /* PhotoRenamerApp.swift in Sources */,
+				5E6F7G8H9I0J1K2L3M4N5O6P7Q8R9S0T /* PhotoItem.swift in Sources */,
+				6F7G8H9I0J1K2L3M4N5O6P7Q8R9S0T1U /* PhotoRenamerViewModel.swift in Sources */,
+				7G8H9I0J1K2L3M4N5O6P7Q8R9S0T1U2V /* GeminiAIService.swift in Sources */,
+				8H9I0J1K2L3M4N5O6P7Q8R9S0T1U2V3W /* PreferencesView.swift in Sources */,
+				9I0J1K2L3M4N5O6P7Q8R9S0T1U2V3W4X /* PreferencesViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		Q6P5O4N3M2L1K0J9I8H7G6F5E4D3C2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		R7Q6P5O4N3M2L1K0J9I8H7G6F5E4D3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		S8R7Q6P5O4N3M2L1K0J9I8H7G6F5E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoRenamer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoRenamer/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PhotoRenamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		T9S8R7Q6P5O4N3M2L1K0J9I8H7G6F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoRenamer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoRenamer/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PhotoRenamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		N3M2L1K0J9I8H7G6F5E4D3C2B1A0U9T /* Build configuration list for PBXNativeTarget "PhotoRenamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				S8R7Q6P5O4N3M2L1K0J9I8H7G6F5E4D /* Debug */,
+				T9S8R7Q6P5O4N3M2L1K0J9I8H7G6F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		P5O4N3M2L1K0J9I8H7G6F5E4D3C2B1A /* Build configuration list for PBXProject "PhotoRenamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				Q6P5O4N3M2L1K0J9I8H7G6F5E4D3C2B1 /* Debug */,
+				R7Q6P5O4N3M2L1K0J9I8H7G6F5E4D3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = O4N3M2L1K0J9I8H7G6F5E4D3C2B1A0U9 /* Project object */;
+} 

@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/master.swiftdeps"
+  },
+  "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/ContentView.swift": {
+    "dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/ContentView.d",
+    "object": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/ContentView.swift.o",
+    "swiftmodule": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/ContentView.swiftdeps"
+  },
+  "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/KeychainManager.swift": {
+    "dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/KeychainManager.d",
+    "object": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/KeychainManager.swift.o",
+    "swiftmodule": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/KeychainManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/KeychainManager.swiftdeps"
+  },
+  "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/Models/PhotoItem.swift": {
+    "dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoItem.d",
+    "object": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoItem.swift.o",
+    "swiftmodule": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoItem.swiftdeps"
+  },
+  "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/PhotoRenamerApp.swift": {
+    "dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoRenamerApp.d",
+    "object": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoRenamerApp.swift.o",
+    "swiftmodule": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoRenamerApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoRenamerApp.swiftdeps"
+  },
+  "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/Services/GeminiAIService.swift": {
+    "dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/GeminiAIService.d",
+    "object": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/GeminiAIService.swift.o",
+    "swiftmodule": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/GeminiAIService~partial.swiftmodule",
+    "swift-dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/GeminiAIService.swiftdeps"
+  },
+  "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/ViewModels/PhotoRenamerViewModel.swift": {
+    "dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoRenamerViewModel.d",
+    "object": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoRenamerViewModel.swift.o",
+    "swiftmodule": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoRenamerViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoRenamerViewModel.swiftdeps"
+  },
+  "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/ViewModels/PreferencesViewModel.swift": {
+    "dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PreferencesViewModel.d",
+    "object": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PreferencesViewModel.swift.o",
+    "swiftmodule": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PreferencesViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PreferencesViewModel.swiftdeps"
+  },
+  "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/Views/PreferencesView.swift": {
+    "dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PreferencesView.d",
+    "object": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PreferencesView.swift.o",
+    "swiftmodule": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PreferencesView~partial.swiftmodule",
+    "swift-dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PreferencesView.swiftdeps"
+  },
+  "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/resource_bundle_accessor.d",
+    "object": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/resource_bundle_accessor.swiftdeps"
+  }
+}

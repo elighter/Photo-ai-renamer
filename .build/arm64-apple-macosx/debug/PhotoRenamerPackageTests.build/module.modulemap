@@ -1,0 +1,4 @@
+module PhotoRenamerPackageTests {
+    header "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.build/PhotoRenamerPackageTests-Swift.h"
+    requires objc
+}

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerTests.build/master.swiftdeps"
+  },
+  "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamerTests/PhotoRenamerTests.swift": {
+    "dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerTests.build/PhotoRenamerTests.d",
+    "object": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerTests.build/PhotoRenamerTests.swift.o",
+    "swiftmodule": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerTests.build/PhotoRenamerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerTests.build/PhotoRenamerTests.swiftdeps"
+  }
+}

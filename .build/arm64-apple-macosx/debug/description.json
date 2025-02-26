@@ -1,0 +1,779 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.xctest/Contents/MacOS/PhotoRenamerPackageTests",
+      "packagePath" : "/Users/emrecakmak/Projects/PhotoRenamer",
+      "productName" : "PhotoRenamerPackageTests"
+    }
+  ],
+  "copyCommands" : {
+    "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer_PhotoRenamer.bundle/Assets.xcassets" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/Assets.xcassets"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer_PhotoRenamer.bundle/Assets.xcassets"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.PhotoRenamer-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/sources",
+      "importPath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/KeychainManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/Models/PhotoItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/PhotoRenamerApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/Services/GeminiAIService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/ViewModels/PhotoRenamerViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/ViewModels/PreferencesViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/Views/PreferencesView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<PhotoRenamer-arm64-apple-macosx15.0-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "PhotoRenamer",
+      "moduleOutputPath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/Modules/PhotoRenamer.swiftmodule",
+      "objects" : [
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/ContentView.swift.o",
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/KeychainManager.swift.o",
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoItem.swift.o",
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoRenamerApp.swift.o",
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/GeminiAIService.swift.o",
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoRenamerViewModel.swift.o",
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PreferencesViewModel.swift.o",
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PreferencesView.swift.o",
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "PhotoRenamer_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/KeychainManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoRenamerApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/GeminiAIService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoRenamerViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PreferencesViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PreferencesView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/Modules/PhotoRenamer.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/ContentView.swift",
+        "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/KeychainManager.swift",
+        "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/Models/PhotoItem.swift",
+        "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/PhotoRenamerApp.swift",
+        "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/Services/GeminiAIService.swift",
+        "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/ViewModels/PhotoRenamerViewModel.swift",
+        "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/ViewModels/PreferencesViewModel.swift",
+        "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/Views/PreferencesView.swift",
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.PhotoRenamerPackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.build/sources",
+      "importPath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/Modules/PhotoRenamerTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "PhotoRenamerPackageTests",
+      "moduleOutputPath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/Modules/PhotoRenamerPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.build/PhotoRenamerPackageTests-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/Modules/PhotoRenamerPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.PhotoRenamerTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerTests.build/sources",
+      "importPath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamerTests/PhotoRenamerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "PhotoRenamerTests",
+      "moduleOutputPath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/Modules/PhotoRenamerTests.swiftmodule",
+      "objects" : [
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerTests.build/PhotoRenamerTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerTests.build/PhotoRenamerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/Modules/PhotoRenamerTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamerTests/PhotoRenamerTests.swift"
+      ],
+      "tempsPath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "PhotoRenamer" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "PhotoRenamer",
+      "-incremental",
+      "-c",
+      "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/ContentView.swift",
+      "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/KeychainManager.swift",
+      "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/Models/PhotoItem.swift",
+      "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/PhotoRenamerApp.swift",
+      "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/Services/GeminiAIService.swift",
+      "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/ViewModels/PhotoRenamerViewModel.swift",
+      "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/ViewModels/PreferencesViewModel.swift",
+      "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/Views/PreferencesView.swift",
+      "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "PhotoRenamer_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "PhotoRenamerPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "PhotoRenamerPackageTests",
+      "-incremental",
+      "-c",
+      "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.build/PhotoRenamerPackageTests-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "PhotoRenamerTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "PhotoRenamerTests",
+      "-incremental",
+      "-c",
+      "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamerTests/PhotoRenamerTests.swift",
+      "-I",
+      "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "PhotoRenamer" : [
+
+    ],
+    "PhotoRenamerPackageTests" : [
+      "PhotoRenamerTests",
+      "PhotoRenamer"
+    ],
+    "PhotoRenamerTests" : [
+      "PhotoRenamer"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "writeCommands" : {
+    "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer-entitlement.plist"
+    },
+    "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/KeychainManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/Models/PhotoItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/PhotoRenamerApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/Services/GeminiAIService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/ViewModels/PhotoRenamerViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/ViewModels/PreferencesViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamer/Views/PreferencesView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/sources"
+    },
+    "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/GeminiAIService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/KeychainManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoRenamerApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoRenamerViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PreferencesView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PreferencesViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/resource_bundle_accessor.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.product/Objects.LinkFileList"
+    },
+    "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.build/sources"
+    },
+    "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/GeminiAIService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/KeychainManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoRenamerApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PhotoRenamerViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PreferencesView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/PreferencesViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamer.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerTests.build/PhotoRenamerTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/emrecakmak/Projects/PhotoRenamer/PhotoRenamerTests/PhotoRenamerTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/PhotoRenamerTests.build/sources"
+    },
+    "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/emrecakmak/Projects/PhotoRenamer/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
