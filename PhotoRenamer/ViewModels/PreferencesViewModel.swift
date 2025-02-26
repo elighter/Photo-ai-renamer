@@ -8,13 +8,25 @@ class PreferencesViewModel: ObservableObject {
     private let keychainService = "com.photorenamer.apikey"
     
     init() {
-        // Başlatıldığında API anahtarını yükle
         loadSettings()
         
-        // API anahtarı boşsa, varsayılan anahtarı ayarla
         if apiKey.isEmpty {
-            apiKey = "AIzaSyAMUy5aYcYc0kr4w_h73E1eAKau-g0l9nY"
-            saveSettings()
+            loadAPIKeyFromEnv()
+        }
+    }
+    
+    private func loadAPIKeyFromEnv() {
+        if let envPath = Bundle.main.path(forResource: ".env", ofType: nil),
+           let contents = try? String(contentsOfFile: envPath, encoding: .utf8) {
+            let lines = contents.components(separatedBy: .newlines)
+            for line in lines {
+                let components = line.components(separatedBy: "=")
+                if components.count == 2 && components[0] == "GEMINI_API_KEY" {
+                    apiKey = components[1].trimmingCharacters(in: .whitespaces)
+                    saveSettings()
+                    break
+                }
+            }
         }
     }
     
@@ -31,7 +43,6 @@ class PreferencesViewModel: ObservableObject {
     func saveSettings() {
         do {
             try KeychainManager.saveAPIKey(apiKey)
-            // API anahtarını servis için güncelle
             NotificationCenter.default.post(name: Notification.Name("APIKeyChanged"), object: nil)
         } catch {
             print("API anahtarı kaydedilirken hata oluştu: \(error)")
